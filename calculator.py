@@ -1,9 +1,9 @@
 
 class Calculator:
-	def sum(self, a, b):
+	def summary(self, a, b):
 		return a + b;
 
-	def mult(self, a, b):
+	def multiply(self, a, b):
 		return a * b;
 
 	def printIsEven(self, value):
