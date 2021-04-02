@@ -2,11 +2,17 @@
 
 from calculator import Calculator 
 
-def printIsEven(value):
-	if value % 2 == 0:
+def isEven(value):
+	return value % 2 == 0
+
+def exampleExtract(value):
+	if isEven(value):
 		print("even")
 	else:
 		print("odd")
+
+def printIsEven(value):
+	exampleExtract(value);
 
 calculator = Calculator()
 print("1 + 2 = ", calculator.summary(1, 2))
