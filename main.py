@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from calculator import Calculator 
+from calculator import Calc 
 
 def isEven(value):
 	return value % 2 == 0
@@ -14,7 +14,7 @@ def exampleExtract(value):
 def printIsEven(value):
 	exampleExtract(value);
 
-calculator = Calculator()
+calculator = Calc()
 print("1 + 2 = ", calculator.summary(1, 2))
 print("2 x 2 = ", calculator.multiply(2, 2))
 print("2 is = ",)

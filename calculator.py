@@ -1,5 +1,5 @@
 
-class Calculator:
+class Calc:
 	def summary(self, a, b):
 		return a + b;
 
